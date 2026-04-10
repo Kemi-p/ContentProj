@@ -15,6 +15,8 @@ Your file was uploaded successfully!
 <notification-banner type="error">
 <strong>Failed:</strong> Could not reach the server.
 </notification-banner>
+
+
 Project 2 — Profile Card
 Build a <profile-card> component with three named slots using select: one for the avatar, one for the user's name/title, and one for an action button row.
 What to build:
