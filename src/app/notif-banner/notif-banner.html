@@ -1,0 +1,15 @@
+@if(!dismissed){
+    <div class="banner" [ngClass]="type">
+  <mat-icon class="icon">
+    {{ type === 'success' ? 'check_circle' : type === 'error' ? 'error' : 'warning' }}
+  </mat-icon>
+
+  <div class="content">
+    <ng-content></ng-content>
+  </div>
+
+  <button mat-icon-button (click)="dismiss()">
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+}
